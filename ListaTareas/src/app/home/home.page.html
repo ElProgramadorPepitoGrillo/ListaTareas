@@ -15,11 +15,14 @@
   <h1 style="text-align: center;">
     Hola Tareras
   </h1>
-  <div>
-    <input type="number" [(ngModel)]="num1">
-    <ion-input type="number" [(ngModel)]="num1"></ion-input>
+  <ion-progress-bar></ion-progress-bar>
+  <ion-list style>    
+    <ion-item *ngFor="let tarea of tareas">
+      <ion-input>Pokémon Yellow</ion-input>
+    </ion-item>
+  </ion-list>
 
-    <ion-label>{{num1}}</ion-label>
-  </div>
+  <ion-button>Añadir</ion-button>
+  
 
 </ion-content>

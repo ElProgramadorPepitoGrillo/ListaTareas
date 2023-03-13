@@ -9,5 +9,11 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
-  num1:number=0
+
+  tareas:any
+
+
+  añadir(){
+    
+  }
 }
